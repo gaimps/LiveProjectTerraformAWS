@@ -12,7 +12,7 @@ resource "aws_db_instance" "database" {
   engine_version         = "5.7"
   instance_class         = "db.t2.micro"
   identifier             = "${var.namespace}-db-instance"
-  name                   = "pets"
+  name                   = "koffee"
   username               = "admin"
   password               = local.db_password
   skip_final_snapshot    = true
